@@ -201,6 +201,24 @@ Just don't delete or blank the page.
 |style="background:#66f;"|[[Image:UserscriptList-Source.svg|20px |link=https://github.com/murdos/musicbrainz-userscripts/blob/master/vgmdb_importer.user.js]]
 |style="background:#f66;"|[[Image:UserscriptList-Bug.svg|20px |link=https://github.com/murdos/musicbrainz-userscripts/issues]]
 |-
+|Import from Music Forest
+|Import releases from Music Forest into MusicBrainz.
+|style="background:#F8CEA3;"|MusicBrainz
+|minc.or.jp
+|y-young
+|style="background:#6f6;"|[[Image:UserscriptList-Install.svg|25px |link=https://github.com/y-young/userscripts/raw/master/musicbrainz-import-from-music-forest.user.js]]
+|style="background:#66f;"|[[Image:UserscriptList-Source.svg|20px |link=https://github.com/y-young/userscripts/blob/master/musicbrainz-import-from-music-forest.user.js]]
+|style="background:#f66;"|[[Image:UserscriptList-Bug.svg|20px |link=https://github.com/y-young/userscripts/issues]]
+|-
+|Import from THBWiki
+|Import releases from THBWiki into MusicBrainz.
+|style="background:#F8CEA3;"|MusicBrainz
+|THBWiki
+|y-young
+|style="background:#6f6;"|[[Image:UserscriptList-Install.svg|25px |link=https://github.com/y-young/userscripts/raw/master/musicbrainz-import-from-thbwiki.user.js]]
+|style="background:#66f;"|[[Image:UserscriptList-Source.svg|20px |link=https://github.com/y-young/userscripts/blob/master/musicbrainz-import-from-thbwiki.user.js]]
+|style="background:#f66;"|[[Image:UserscriptList-Bug.svg|20px |link=https://github.com/y-young/userscripts/issues]]
+|-
 |Import videos from YouTube
 |
 |style="background:#F8CEA3;"|MusicBrainz
@@ -717,6 +735,47 @@ Just don't delete or blank the page.
 |style="background:#f66;"|[[Image:UserscriptList-Bug.svg|20px |link=https://github.com/qsniyg/maxurl/issues]]
 |}
 
+<span style="font-size:50px; font-family: Roboto; font-weight: 100">Collection Scripts</span>
+
+{| class="wikitable sortable" width="90%"
+|-
+!Name
+!Info
+!width=20px|Site
+!width=70px|2nd Site
+!width=20px|Author
+!width=30px class="unsortable" |DL
+!width=25px class="unsortable" |Src
+!width=25px class="unsortable" |Bug
+|-
+|Hyper Moulinette
+|Mass PUT or DELETE releases in a collection from an edit search or an other collection.
+|style="background:#F8CEA3;"|MusicBrainz
+|
+|jesus2099
+|style="background:#6f6;"|[[Image:UserscriptList-Install.svg|25px |link=https://github.com/jesus2099/konami-command/raw/master/mb_HYPER-MOULINETTE.user.js]]
+|style="background:#66f;"|[[Image:UserscriptList-Source.svg|20px |link=https://github.com/jesus2099/konami-command/blob/master/mb_HYPER-MOULINETTE.user.js]]
+|style="background:#f66;"|[[Image:UserscriptList-Bug.svg|20px |link=https://github.com/jesus2099/konami-command/issues]]
+|-
+|Collection Highlighter
+|Highlights releases, release-groups, etc. that you have in your collections (anyone’s collection can be loaded) everywhere.
+|style="background:#F8CEA3;"|MusicBrainz
+|
+|jesus2099
+|style="background:#6f6;"|[[Image:UserscriptList-Install.svg|25px |link=https://github.com/jesus2099/konami-command/raw/master/mb_COLLECTION-HIGHLIGHTER.user.js]]
+|style="background:#66f;"|[[Image:UserscriptList-Source.svg|20px |link=https://github.com/jesus2099/konami-command/blob/master/mb_COLLECTION-HIGHLIGHTER.user.js]]
+|style="background:#f66;"|[[Image:UserscriptList-Bug.svg|20px |link=https://github.com/jesus2099/konami-command/issues]]
+|-
+|Batch Add to Collection
+|Batch add entities to MusicBrainz collection and copy MBIDs from entity pages, search result or existing collections.
+|style="background:#F8CEA3;"|MusicBrainz
+|
+|y-young
+|style="background:#6f6;"|[[Image:UserscriptList-Install.svg|25px |link=https://github.com/y-young/userscripts/raw/master/musicbrainz-batch-add-to-collection.user.js]]
+|style="background:#66f;"|[[Image:UserscriptList-Source.svg|20px |link=https://github.com/y-young/userscripts/blob/master/musicbrainz-batch-add-to-collection.user.js]]
+|style="background:#f66;"|[[Image:UserscriptList-Bug.svg|20px |link=https://github.com/y-young/userscripts/issues]]
+|}
+
 <span style="font-size:50px; font-family: Roboto; font-weight: 100">Other Scripts</span>
 
 {| class="wikitable sortable" width="90%"
@@ -757,15 +816,6 @@ Just don't delete or blank the page.
 |style="background:#66f;"|[[Image:UserscriptList-Source.svg|20px |link=https://github.com/jesus2099/konami-command/blob/master/mb_REDIRECT-WHEN-UNIQUE-RESULT.user.js]]
 |style="background:#f66;"|[[Image:UserscriptList-Bug.svg|20px |link=https://github.com/jesus2099/konami-command/issues]]
 |-
-|Hyper Moulinette
-|Mass PUT or DELETE releases in a collection from an edit search or an other collection.
-|style="background:#F8CEA3;"|MusicBrainz
-|
-|jesus2099
-|style="background:#6f6;"|[[Image:UserscriptList-Install.svg|25px |link=https://github.com/jesus2099/konami-command/raw/master/mb_HYPER-MOULINETTE.user.js]]
-|style="background:#66f;"|[[Image:UserscriptList-Source.svg|20px |link=https://github.com/jesus2099/konami-command/blob/master/mb_HYPER-MOULINETTE.user.js]]
-|style="background:#f66;"|[[Image:UserscriptList-Bug.svg|20px |link=https://github.com/jesus2099/konami-command/issues]]
-|-
 |Cool Entity Links
 |In some pages like edits, blog, forums, chatlogs, tickets, annotations, etc. it will prefix entity links with an icon, shorten and embelish all sorts of MB links (cdtoc, entities, tickets, bugs, edits, etc.).
 |style="background:#F8CEA3;"|MusicBrainz
@@ -773,15 +823,6 @@ Just don't delete or blank the page.
 |jesus2099
 |style="background:#6f6;"|[[Image:UserscriptList-Install.svg|25px |link=https://github.com/jesus2099/konami-command/raw/master/mb_COOL-ENTITY-LINKS.user.js]]
 |style="background:#66f;"|[[Image:UserscriptList-Source.svg|20px |link=https://github.com/jesus2099/konami-command/blob/master/mb_COOL-ENTITY-LINKS.user.js]]
-|style="background:#f66;"|[[Image:UserscriptList-Bug.svg|20px |link=https://github.com/jesus2099/konami-command/issues]]
-|-
-|Collection Highlighter
-|Highlights releases, release-groups, etc. that you have in your collections (anyone’s collection can be loaded) everywhere.
-|style="background:#F8CEA3;"|MusicBrainz
-|
-|jesus2099
-|style="background:#6f6;"|[[Image:UserscriptList-Install.svg|25px |link=https://github.com/jesus2099/konami-command/raw/master/mb_COLLECTION-HIGHLIGHTER.user.js]]
-|style="background:#66f;"|[[Image:UserscriptList-Source.svg|20px |link=https://github.com/jesus2099/konami-command/blob/master/mb_COLLECTION-HIGHLIGHTER.user.js]]
 |style="background:#f66;"|[[Image:UserscriptList-Bug.svg|20px |link=https://github.com/jesus2099/konami-command/issues]]
 |-
 |Revive Deleted Editors
@@ -828,7 +869,6 @@ Just don't delete or blank the page.
 |style="background:#6f6;"|[[Image:UserscriptList-Install.svg|25px |link=https://raw.github.com/murdos/musicbrainz-userscripts/master/mb_discids_detector.user.js]]
 |style="background:#66f;"|[[Image:UserscriptList-Source.svg|20px |link=https://github.com/murdos/musicbrainz-userscripts/blob/master/mb_discids_detector.user.js]]
 |style="background:#f66;"|[[Image:UserscriptList-Bug.svg|20px |link=https://github.com/murdos/musicbrainz-userscripts/issues]]
-|-
 |}
 
 <div class="center">[https://github.com/colbydray/MBWiki-Userpage-Colbydray/blob/master/SubPages/UserscriptList Github Backup]</div>
